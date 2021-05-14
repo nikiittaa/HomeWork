@@ -7,23 +7,27 @@ public class Rectangle {
     int left;
 
     //1
-    Rectangle(int left,int width,int height,int top) {
+    Rectangle(int left, int width, int height, int top) {
         this.left = left;
         this.width = width;
         this.height = height;
-        this.top = top; }
-//2
-    Rectangle(int left,int top){
+        this.top = top;
+    }
+
+    //2
+    Rectangle(int left, int top) {
         this.height = 0;
         this.width = 0;
         this.left = left;
         this.top = top;
     }
-//3
-    Rectangle(int left,int width, int top){
+
+    //3
+    Rectangle(int left, int width, int top) {
         this.height = width;
         this.left = left;
         this.top = top;
+        this.width = width;
     }
 
     @Override
@@ -36,11 +40,11 @@ public class Rectangle {
                 '}';
     }
 
-    Rectangle(Rectangle r){
-        this.top=r.top;
-        this.left=r.left;
-        this.width=r.width;
-        this.height=r.height;
+    Rectangle(Rectangle r) {
+        this.top = r.top;
+        this.left = r.left;
+        this.width = r.width;
+        this.height = r.height;
     }
 
 }
