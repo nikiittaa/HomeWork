@@ -8,7 +8,6 @@ public class Helpers {
 
     static class MathHelper {
         public void sum(int a, int b) {
-
         }
     }
 

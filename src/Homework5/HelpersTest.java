@@ -11,6 +11,5 @@ public class HelpersTest {
         Helpers.DistanceHelper helpers1 = new Helpers.DistanceHelper();
 
         helpers1.calculateDistance(5, 5, 5, 5);
-
     }
 }
