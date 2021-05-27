@@ -4,6 +4,10 @@ public class Train extends Transport {
     int carriage = 22;
     final int peoples = 40;
 
+    public Train(String name,int weight,int speed) {
+        super(name, weight, speed);
+    }
+
     public void passengerTrain() {
         System.out.println("It carries " + peoples * carriage + " peoples ");
     }

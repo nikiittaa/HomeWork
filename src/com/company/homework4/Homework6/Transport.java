@@ -5,20 +5,10 @@ public class Transport {
     private int weight;
     private int speed;
 
-    public void Transport() {
-        this.weight = 27000;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setSpeed(int speed) {
-        this.speed = speed;
-    }
-
-    public void setWeight(int weight) {
+    public Transport(String name,int weight,int speed) {
         this.weight = weight;
+        this.name = name;
+        this.speed = speed;
     }
 
     public void printTransport(){
