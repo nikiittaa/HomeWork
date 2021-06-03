@@ -1,4 +1,4 @@
-package com.company.homework4.Homework6;
+package com.company.homework6.transport;
 
 public class Transport {
     private String name;

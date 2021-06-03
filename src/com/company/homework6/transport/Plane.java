@@ -1,19 +1,16 @@
-package com.company.homework4.Homework6;
+package com.company.homework6.transport;
 
 public class Plane extends Transport {
-    final int peoples = 140;
+    int peoples;
 
     public Plane(String name,int weight,int speed) {
         super(name, weight, speed);
+        peoples = 140;
     }
     public void passengerPlane() {
         System.out.println("It carries " + peoples + " peoples ");
     }
 
-    @Override
-    public void printTransport() {
-        super.printTransport();
-    }
 }
 
 
